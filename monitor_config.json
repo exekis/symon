@@ -1,0 +1,9 @@
+{
+  "interval": 5,
+  "duration": 0,
+  "cpu_threshold": 90.0,
+  "memory_threshold": 85.0,
+  "temperature_threshold": 80.0,
+  "enable_alerts": true,
+  "log_file": "system_monitor.log"
+}
