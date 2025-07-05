@@ -219,7 +219,7 @@ Key settings:
 - `theme`: 'matrix', 'cyber', 'retro', or 'minimal'
 - Alert thresholds for CPU, memory, disk, and temperature
 
-## NOVEL CALCULATION METHODS
+## NOVEL CALCULATION METHODS (ACCURATE FOR ARCH LINUX)
 
 ### Smart CPU Usage
 - **Process Weighting**: Interactive processes (browsers, editors) weighted higher than background tasks
@@ -307,7 +307,7 @@ Key settings:
 
 ### Common Issues
 
-1. **Permission denied for sensors**
+1. **Permission denied for user sensors**
    ```bash
    sudo usermod -a -G sensors $USER
    # Log out and back in
@@ -371,7 +371,7 @@ Areas for contribution:
 
 ## LICENSE
 
-MIT License - see LICENSE file for details.
+MIT License
 
 ## DEPENDENCIES
 
@@ -389,5 +389,3 @@ MIT License - see LICENSE file for details.
 - **ps, top, df, iostat**: System utilities
 
 ---
-
-**SYMON v2.0** - Advanced system monitoring with novel analysis methods for the modern era.
